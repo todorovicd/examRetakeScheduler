@@ -1,0 +1,150 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using MySql.Data.MySqlClient;
+
+namespace Learning_Center_App
+{
+    public partial class frmManagement : Form
+    {
+        MySqlConnection connectionViewUser = new MySqlConnection("user id=ViewUser;password=12345;host=127.0.0.1;database=damjan;persist security info=True;convert zero datetime=True");
+
+
+        public frmManagement()
+        {
+            InitializeComponent();
+        }
+
+        private void frmManagement_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnFacExit_Click(object sender, EventArgs e)
+        {
+            new frmHome().Show();
+            this.Close();
+        }
+
+        //protected override void OnFormClosing(FormClosingEventArgs e)
+        //{
+        //    base.OnFormClosing(e);
+        //    if (e.CloseReason == CloseReason.WindowsShutDown) return;
+        //    new frmHome().Show();
+
+        //}
+
+        private void txtStudIDSrch_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char ch = e.KeyChar;
+            if (!Char.IsDigit(ch) && ch != 8)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void btnSrchDate_Click(object sender, EventArgs e)
+        {
+            string Query = @"SELECT Class_ID AS Class, Class_Description AS Description, Student_Name AS ""Student Name"", Student_ID AS ""Student ID"", Faculty_Name AS ""Faculty Name"", Student_Scheduled_Date AS ""Scheduled On"", Student_Scheduled_Time AS Time FROM damjan.retake WHERE Retake_StartDate BETWEEN '" + dateTimePickerFrom.Value.Date.ToString("yyyy-MM-dd") + "' AND '" + dateTimePickerTo.Value.Date.ToString("yyyy-MM-dd") + "'";
+            MySqlCommand Command = new MySqlCommand(Query, connectionViewUser);
+
+            try
+            {
+                MySqlDataAdapter dataAdapt = new MySqlDataAdapter();
+                dataAdapt.SelectCommand = Command;
+                DataTable dataSet = new DataTable();
+                dataAdapt.Fill(dataSet);
+                BindingSource bindSource = new BindingSource();
+
+                bindSource.DataSource = dataSet;
+                dataGridViewManag.DataSource = bindSource;
+                dataAdapt.Update(dataSet);
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+
+            connectionViewUser.Close();
+        }
+
+        private void btnSrchStuIDNam_Click(object sender, EventArgs e)
+        {
+
+            if (txtStudNamSrch.Text.Length == 0)
+            {
+                if (txtStudIDSrch.Text.Length > 0)
+                {
+                    string StudQuery = @"SELECT Class_ID AS Class, Class_Description AS Description, Student_Name AS ""Student Name"", Student_ID AS ""Student ID"", Faculty_Name AS ""Faculty Name"", Student_Scheduled_Date AS ""Scheduled On"", Student_Scheduled_Time AS Time FROM damjan.retake WHERE Student_ID LIKE @stuID";
+                    MySqlCommand Commandddd = new MySqlCommand(StudQuery, connectionViewUser);
+                    Commandddd.Parameters.AddWithValue("@stuID", "%" + txtStudIDSrch.Text);
+
+                    try
+                    {
+                        MySqlDataAdapter dataAdapt = new MySqlDataAdapter();
+                        dataAdapt.SelectCommand = Commandddd;
+                        DataTable dataSet = new DataTable();
+                        dataAdapt.Fill(dataSet);
+                        BindingSource bindSource = new BindingSource();
+
+                        bindSource.DataSource = dataSet;
+                        dataGridViewManag.DataSource = bindSource;
+                        dataAdapt.Update(dataSet);
+
+                    }
+                    catch (Exception ex)
+                    {
+
+                        MessageBox.Show(ex.Message);
+                    }
+
+                    connectionViewUser.Close();
+
+                }
+                else if (txtStudIDSrch.Text.Length == 0)
+                {
+                    MessageBox.Show("Please enter Student Name OR Student ID to search for retakes.");
+                }
+            }
+            else if (txtStudNamSrch.Text.Length > 0)
+            {
+                if (txtStudIDSrch.Text.Length == 0)
+                {
+                    string Query = @"SELECT Class_ID AS Class, Class_Description AS Description, Student_Name AS ""Student Name"", Student_ID AS ""Student ID"", Faculty_Name AS ""Faculty Name"", Student_Scheduled_Date AS ""Scheduled On"", Student_Scheduled_Time AS Time FROM damjan.retake WHERE Student_Name LIKE @stuName";
+                    MySqlCommand Command = new MySqlCommand(Query, connectionViewUser);
+                    Command.Parameters.AddWithValue("@stuName", txtStudNamSrch.Text + "%");
+
+                    try
+                    {
+                        MySqlDataAdapter dataAdapt = new MySqlDataAdapter();
+                        dataAdapt.SelectCommand = Command;
+                        DataTable dataSet = new DataTable();
+                        dataAdapt.Fill(dataSet);
+                        BindingSource bindSource = new BindingSource();
+
+                        bindSource.DataSource = dataSet;
+                        dataGridViewManag.DataSource = bindSource;
+                        dataAdapt.Update(dataSet);
+
+                    }
+                    catch (Exception ex)
+                    {
+
+                        MessageBox.Show(ex.Message);
+                    }
+
+                    connectionViewUser.Close();
+                }
+
+            }
+        }
+    }
+ }

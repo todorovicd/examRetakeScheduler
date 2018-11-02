@@ -1,0 +1,515 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+
+
+namespace Learning_Center_App
+{
+    public partial class AdminFrm : Form
+    {
+        SqlConnection testejeeje = new SqlConnection("Data Source=MVCX000729\\SQLEXPRESS;Initial Catalog=databaseDamjanSQL;Persist Security Info=True;User ID=damjan;Password=12345Damjan!;MultipleActiveResultSets=True");
+
+        public static string classIDGeneral = "";
+
+        public static string facultyID = "";
+
+        public static string classChosenID = "";
+
+
+
+        SqlDataAdapter dataAdapt = new SqlDataAdapter();
+        DataTable dataTbl = new DataTable();
+        BindingSource bindSource = new BindingSource();
+        SqlCommandBuilder cmdBuilder = new SqlCommandBuilder();
+
+
+        public AdminFrm()
+        {
+            InitializeComponent();
+        }
+
+        private void AdminFrm_Load(object sender, EventArgs e)
+        {
+            FillCombo();
+
+            this.dataGridViewAdminVR.Columns["RowNum"].Visible = false;
+
+            this.pnlMngRetAdmin.Visible = false;
+
+
+            dateTimePickerStart.MinDate = DateTime.Now.AddDays(-5);
+            dateTimePickerStart.MaxDate = DateTime.Now.AddDays(15);
+
+            dateTimePickerEnd.MinDate = DateTime.Now;
+            dateTimePickerEnd.MaxDate = DateTime.Now.AddDays(15);
+
+            dateTimePickerSched.MinDate = DateTime.Now;
+            dateTimePickerSched.MaxDate = DateTime.Now.AddDays(15);
+
+        }
+
+        void FillCombo()
+        {
+            string Query = "SELECT Class_ID, Class_Description FROM dbo.class;";
+            SqlCommand Command = new SqlCommand(Query, testejeeje);
+            SqlDataReader dataReader;
+
+            try
+            {
+                if (testejeeje.State == ConnectionState.Closed)
+                {
+                    testejeeje.Open();
+
+                    dataReader = Command.ExecuteReader();
+
+                    while (dataReader.Read())
+                    {
+                        string classID = dataReader.GetValue(0).ToString();
+                        string classDescrip = dataReader.GetValue(1).ToString();
+
+                        cboClassFacSrchPan.Items.Add(string.Format("{0}  {1}", classID, classDescrip));
+
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+
+            if (testejeeje.State == ConnectionState.Open)
+            {
+                testejeeje.Close();
+            }
+        }
+
+        private void cboClassFacSrchPan_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string ClassIdentifierString = this.cboClassFacSrchPan.GetItemText(this.cboClassFacSrchPan.SelectedItem);
+            string classIDent = ClassIdentifierString.Substring(0, 5);
+
+            classIDGeneral = classIDent.ToString();
+
+        }
+
+        private void btnFacExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new frmHome().Show();
+        }
+
+        private void btnSrchClass_Click_1(object sender, EventArgs e)
+        {
+            if (cboClassFacSrchPan.SelectedItem == null)
+            {
+
+            }
+            else
+            {
+                this.dataGridViewAdminVR.Columns["RowNum"].Visible = true;
+
+                dataTbl.Clear();
+
+                string Query = @"SELECT CONCAT(Class_ID, Class_Description) AS ""Class"", Retake_ID AS ""Retake ID"", Faculty_Name AS ""Faculty Name"", Faculty_ID AS ""Faculty ID"", Student_Name AS ""Student Name"", Student_ID AS ""Student ID"", Retake_StartDate AS ""Start Date"", Retake_EndDate AS ""End Date"", Student_Scheduled_Date AS ""Scheduled On"", Student_Scheduled_Time AS ""Scheduled Time"", Retake_Status AS ""Retake Status"" FROM dbo.retake WHERE Class_ID = '" + classIDGeneral.ToString() + "'";
+                SqlCommand Command = new SqlCommand(Query, testejeeje);
+
+                try
+                {
+                    if (testejeeje.State == ConnectionState.Closed)
+                    {
+                        testejeeje.Open();
+                    }
+
+                    dataAdapt.SelectCommand = Command;
+                    dataAdapt.Fill(dataTbl);
+                    bindSource.DataSource = dataTbl;
+                    dataGridViewAdminVR.DataSource = bindSource;
+                    dataAdapt.Update(dataTbl);
+
+                }
+                catch (Exception ex)
+                {
+
+                    MessageBox.Show(ex.Message);
+                }
+
+                if (testejeeje.State == ConnectionState.Open)
+                {
+                    testejeeje.Close();
+
+                }
+            }
+        }
+
+        private void txtUserIDSrch_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char ch = e.KeyChar;
+            if (!Char.IsDigit(ch) && ch != 8)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void btnSrchUserIDNam_Click(object sender, EventArgs e)
+        {
+            this.dataGridViewAdminVR.Columns["RowNum"].Visible = true;
+
+            if (txtUserNamSrch.Text.Length == 0)
+            {
+                if (txtUserIDSrch.Text.Length > 0)
+                {
+                    if (cboWhoAdmin.Text == "Student")
+                    {
+                        dataTbl.Clear();
+
+                        string Query = @"SELECT CONCAT(Class_ID, Class_Description) AS ""Class"",Retake_ID AS ""Retake ID"", Faculty_Name AS ""Faculty Name"", Faculty_ID AS ""Faculty ID"", Student_Name AS ""Student Name"", Student_ID AS ""Student ID"", Retake_StartDate AS ""Start Date"", Retake_EndDate AS ""End Date"", Student_Scheduled_Date AS ""Scheduled On"", Student_Scheduled_Time AS ""Scheduled Time"", Retake_Status AS ""Retake Status"" FROM dbo.retake WHERE Student_ID LIKE @userID";
+                        SqlCommand CommanddDd = new SqlCommand(Query, testejeeje);
+                        CommanddDd.Parameters.AddWithValue("@userID", "%" + txtUserIDSrch.Text);
+
+                        try
+                        {
+                            if (testejeeje.State == ConnectionState.Closed)
+                            {
+                                testejeeje.Open();
+                            }
+
+                            dataAdapt.SelectCommand = CommanddDd;
+                            dataAdapt.Fill(dataTbl);
+                            bindSource.DataSource = dataTbl;
+                            dataGridViewAdminVR.DataSource = bindSource;
+                            dataAdapt.Update(dataTbl);
+
+                        }
+                        catch (Exception ex)
+                        {
+
+                            MessageBox.Show(ex.Message);
+                        }
+
+                        if (testejeeje.State == ConnectionState.Open)
+                        {
+                            testejeeje.Close();
+                        }
+                    }
+                    else if (cboWhoAdmin.Text == "Faculty")
+                    {
+                        dataTbl.Clear();
+
+                        string Query = @"SELECT CONCAT(Class_ID, Class_Description) AS ""Class"", Retake_ID AS ""Retake ID"", Faculty_Name AS ""Faculty Name"", Faculty_ID AS ""Faculty ID"", Student_Name AS ""Student Name"", Student_ID AS ""Student ID"", Retake_StartDate AS ""Start Date"", Retake_EndDate AS ""End Date"", Student_Scheduled_Date AS ""Scheduled On"", Student_Scheduled_Time AS ""Scheduled Time"", Retake_Status AS ""Retake Status"" FROM dbo.retake WHERE Faculty_ID LIKE @userID";
+                        SqlCommand CommanddDd = new SqlCommand(Query, testejeeje);
+                        CommanddDd.Parameters.AddWithValue("@userID", "%" + txtUserIDSrch.Text);
+
+                        try
+                        {
+                            if (testejeeje.State == ConnectionState.Closed)
+                            {
+                                testejeeje.Open();
+                            }
+
+
+                            dataAdapt.SelectCommand = CommanddDd;
+                            dataAdapt.Fill(dataTbl);
+                            bindSource.DataSource = dataTbl;
+                            dataGridViewAdminVR.DataSource = bindSource;
+                            dataAdapt.Update(dataTbl);
+
+                        }
+                        catch (Exception ex)
+                        {
+
+                            MessageBox.Show(ex.Message);
+                        }
+
+                        if (testejeeje.State == ConnectionState.Open)
+                        {
+                            testejeeje.Close();
+                        }
+                    }
+
+                }
+                else if (txtUserIDSrch.Text.Length == 0)
+                {
+                   
+                }
+            }
+            else if (txtUserNamSrch.Text.Length > 0)
+            {
+                if (txtUserIDSrch.Text.Length == 0)
+                {
+                    if (cboWhoAdmin.Text == "Student")
+                    {
+                        dataTbl.Clear();
+
+                        string Query = @"SELECT CONCAT(Class_ID, Class_Description) AS ""Class"", Retake_ID AS ""Retake ID"", Faculty_Name AS ""Faculty Name"", Faculty_ID AS ""Faculty ID"", Student_Name AS ""Student Name"", Student_ID AS ""Student ID"", Retake_StartDate AS ""Start Date"", Retake_EndDate AS ""End Date"", Student_Scheduled_Date AS ""Scheduled On"", Student_Scheduled_Time AS ""Scheduled Time"", Retake_Status AS ""Retake Status"" FROM dbo.retake WHERE Student_Name LIKE @userName";
+                        SqlCommand CommanDDD = new SqlCommand(Query, testejeeje);
+                        CommanDDD.Parameters.AddWithValue("@userName", txtUserNamSrch.Text + "%");
+
+                        try
+                        {
+                            if (testejeeje.State == ConnectionState.Closed)
+                            {
+                                testejeeje.Open();
+                            }
+
+                            dataAdapt.SelectCommand = CommanDDD;
+                            dataAdapt.Fill(dataTbl);
+                            bindSource.DataSource = dataTbl;
+                            dataGridViewAdminVR.DataSource = bindSource;
+                            dataAdapt.Update(dataTbl);
+
+                        }
+                        catch (Exception ex)
+                        {
+
+                            MessageBox.Show(ex.Message);
+                        }
+
+                        if (testejeeje.State == ConnectionState.Open)
+                        {
+                            testejeeje.Close();
+                        }
+                    }
+                    else if (cboWhoAdmin.Text == "Faculty")
+                    {
+                        dataTbl.Clear();
+
+                        string Query = @"SELECT CONCAT(Class_ID, Class_Description) AS ""Class"", Retake_ID AS ""Retake ID"", Faculty_Name AS ""Faculty Name"", Faculty_ID AS ""Faculty ID"", Student_Name AS ""Student Name"", Student_ID AS ""Student ID"", Retake_StartDate AS ""Start Date"", Retake_EndDate AS ""End Date"", Student_Scheduled_Date AS ""Scheduled On"", Student_Scheduled_Time AS ""Scheduled Time"", Retake_Status AS ""Retake Status"" FROM dbo.retake WHERE Faculty_Name LIKE @userName";
+                        SqlCommand CommanDDD = new SqlCommand(Query, testejeeje);
+                        CommanDDD.Parameters.AddWithValue("@userName", txtUserNamSrch.Text + "%");
+
+                        try
+                        {
+                            if (testejeeje.State == ConnectionState.Closed)
+                            {
+                                testejeeje.Open();
+                            }
+
+                            dataAdapt.SelectCommand = CommanDDD;
+                            dataAdapt.Fill(dataTbl);
+                            bindSource.DataSource = dataTbl;
+                            dataGridViewAdminVR.DataSource = bindSource;
+                            dataAdapt.Update(dataTbl);
+
+                        }
+                        catch (Exception ex)
+                        {
+
+                            MessageBox.Show(ex.Message);
+                        }
+
+                        if (testejeeje.State == ConnectionState.Open)
+                        {
+                            testejeeje.Close();
+                        }
+                    }
+                }
+            }
+        }
+
+        private void btnSrchDate_Click(object sender, EventArgs e)
+        {
+            this.dataGridViewAdminVR.Columns["RowNum"].Visible = true;
+
+            if (dateTimePickerTo.Value < dateTimePickerFrom.Value)
+            {
+
+                MessageBox.Show("End Date has to be after Start Date.");
+            }
+
+            else if (dateTimePickerTo.Value >= dateTimePickerFrom.Value)
+            {
+                dataTbl.Clear();
+
+                string Query = @"SELECT CONCAT(Class_ID, Class_Description) AS ""Class"", Retake_ID AS ""Retake ID"", Faculty_Name AS ""Faculty Name"", Faculty_ID AS ""Faculty ID"", Student_Name AS ""Student Name"", Student_ID AS ""Student ID"", Retake_StartDate AS ""Start Date"", Retake_EndDate AS ""End Date"", Student_Scheduled_Date AS ""Scheduled On"", Student_Scheduled_Time AS ""Scheduled Time"", Retake_Status AS ""Retake Status"" FROM dbo.retake WHERE Retake_StartDate BETWEEN '" + dateTimePickerFrom.Value.Date.ToString("yyyy-MM-dd") + "' AND '" + dateTimePickerTo.Value.Date.ToString("yyyy-MM-dd") + "'";
+                SqlCommand Command = new SqlCommand(Query, testejeeje);
+
+                try
+                {
+                    if (testejeeje.State == ConnectionState.Closed)
+                    {
+                        testejeeje.Open();
+                    }
+
+                    dataAdapt.SelectCommand = Command;
+                    dataAdapt.Fill(dataTbl);
+                    bindSource.DataSource = dataTbl;
+                    dataGridViewAdminVR.DataSource = bindSource;
+                    dataAdapt.Update(dataTbl);
+
+                }
+                catch (Exception ex)
+                {
+
+                    MessageBox.Show(ex.Message);
+                }
+            }
+
+            if (testejeeje.State == ConnectionState.Open)
+            {
+                testejeeje.Close();
+            }
+        }
+
+        private void dataGridViewAdminVR_RowPostPaint(object sender, DataGridViewRowPostPaintEventArgs e)
+        {
+            this.dataGridViewAdminVR.Rows[e.RowIndex].Cells["RowNum"].Value = (e.RowIndex + 1).ToString();
+        }
+
+        private void btnVwRetakes_Click(object sender, EventArgs e)
+        {
+            this.panelSrchClassIDAdmin.Visible = true;
+            this.paneSrchStuFacAdmin.Visible = true;
+            this.panelSrchDateAdmin.Visible = true;
+            this.dataGridViewAdminVR.Visible = true;
+            this.lblOr1.Visible = true;
+            this.lblOr2.Visible = true;
+            this.pnlMngRetAdmin.Visible = false;
+        }
+
+        private void btnMngRetakes_Click(object sender, EventArgs e)
+        {
+            this.panelSrchClassIDAdmin.Visible = false;
+            this.paneSrchStuFacAdmin.Visible = false;
+            this.panelSrchDateAdmin.Visible = false;
+            this.dataGridViewAdminVR.Visible = false;
+            this.lblOr1.Visible = false;
+            this.lblOr2.Visible = false;
+            this.pnlMngRetAdmin.Visible = true;
+        }
+
+
+            //manage retakes code - from here down
+
+
+        private void btnDeleteRec_Click(object sender, EventArgs e)
+        {
+            if (txtRetID.Text == "")
+            {
+                MessageBox.Show("Enter Retake ID to delete record.");
+            }
+            else
+            {
+                string msgBX = "You are about to permanently delete record from database with the Retake ID: " + txtRetID.Text + "";
+
+                DialogResult res = MessageBox.Show("'" + msgBX + "'", "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+                if (res == DialogResult.OK)
+                {
+                    string delRecQuery = "DELETE from dbo.retake WHERE Retake_ID = '" + txtRetID.Text + "'";
+
+                    SqlCommand command = new SqlCommand(delRecQuery, testejeeje);
+
+                    if (testejeeje.State == ConnectionState.Closed)
+                    {
+                        testejeeje.Open();
+                    }
+
+                    try
+                    {
+                        if (command.ExecuteNonQuery() == 1)
+                        {
+                            MessageBox.Show("Record has been deleted successfully");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Something is wrong. Please doublecheck the data.");
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
+
+                    if (testejeeje.State == ConnectionState.Open)
+                    {
+                        testejeeje.Close();
+                    }
+                }
+            }                        
+        }
+
+        private void btnUpdateRec_Click(object sender, EventArgs e)
+        {
+            if (txtRetID.Text == "")
+            {
+                MessageBox.Show("Enter Retake ID to update a record.");
+            }
+            else
+            {
+                if (dateTimePickerEnd.Value < dateTimePickerStart.Value)
+                {                
+                    MessageBox.Show("End Date has to be after Start Date.");
+                }
+                else if (dateTimePickerEnd.Value >= dateTimePickerStart.Value)
+                {
+                    if (dateTimePickerSched.Value >= dateTimePickerStart.Value && dateTimePickerSched.Value <= dateTimePickerEnd.Value)
+                    {
+                        if (cboRetStatus.Text.Length == 0)
+                        {
+                            MessageBox.Show("Please select a valied Retake Status");
+
+                        }
+                        else if (cboRetStatus.Text.Length > 0)
+                        {
+                            string msgBX = "You are about to update record with the Retake ID: " + txtRetID.Text + "";
+
+                            DialogResult res = MessageBox.Show("'" + msgBX + "'", "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+                            if (res == DialogResult.OK)
+                            {
+                                string updateQuery = "UPDATE dbo.retake SET Retake_StartDate = '" + dateTimePickerStart.Value.Date.ToString("yyyy-MM-dd") + "', Retake_EndDate = '" + dateTimePickerEnd.Value.Date.ToString("yyyy-MM-dd") + "', Student_Scheduled_Date = '" + dateTimePickerSched.Value.Date.ToString("yyyy-MM-dd") + "', Student_Scheduled_Time = '" + cboSchedTime.Text + "', Retake_Status = '" + cboRetStatus.Text + "'   WHERE Retake_ID = '" + txtRetID.Text + "'";
+
+                                SqlCommand command = new SqlCommand(updateQuery, testejeeje);
+
+                                if (testejeeje.State == ConnectionState.Closed)
+                                {
+                                    testejeeje.Open();
+                                }
+
+                                try
+                                {
+                                    if (command.ExecuteNonQuery() == 1)
+                                    {
+                                        MessageBox.Show("Record has been updated successfully");
+                                    }
+                                    else
+                                    {
+                                        MessageBox.Show("Something is wrong. Please doublecheck the data.");
+                                    }
+                                }
+                                catch (Exception ex)
+                                {
+                                    MessageBox.Show(ex.Message);
+                                }
+
+                                if (testejeeje.State == ConnectionState.Open)
+                                {
+                                    testejeeje.Close();
+                                }
+                            }
+                        }                       
+                    }
+                    else
+                    {
+                        MessageBox.Show("Retake Scheduled date has to be between Start Date and End Date. Please double check.");
+                    }
+                }             
+            }
+        }
+
+        private void txtRetID_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char ch = e.KeyChar;
+            if (!Char.IsDigit(ch) && ch != 8)
+            {
+                e.Handled = true;
+            }
+        }
+    }
+}

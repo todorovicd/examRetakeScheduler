@@ -1,0 +1,385 @@
+c:\users\todorovicd\documents\visual studio 2015\Projects\Learning Center App\Learning Center App\bin\Debug\Learning Center App.exe.config
+c:\users\todorovicd\documents\visual studio 2015\Projects\Learning Center App\Learning Center App\bin\Debug\Learning Center App.exe
+c:\users\todorovicd\documents\visual studio 2015\Projects\Learning Center App\Learning Center App\bin\Debug\Learning Center App.pdb
+c:\users\todorovicd\documents\visual studio 2015\Projects\Learning Center App\Learning Center App\obj\Debug\Learning Center App.csprojResolveAssemblyReference.cache
+c:\users\todorovicd\documents\visual studio 2015\Projects\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.Properties.Resources.resources
+c:\users\todorovicd\documents\visual studio 2015\Projects\Learning Center App\Learning Center App\obj\Debug\Learning Center App.csproj.GenerateResource.Cache
+c:\users\todorovicd\documents\visual studio 2015\Projects\Learning Center App\Learning Center App\obj\Debug\Learning Center App.exe
+c:\users\todorovicd\documents\visual studio 2015\Projects\Learning Center App\Learning Center App\obj\Debug\Learning Center App.pdb
+c:\users\todorovicd\documents\visual studio 2015\Projects\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.frmHome.resources
+C:\Users\todorovicd\Documents\Visual Studio 2015\Projects\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.FrmStudent.resources
+C:\Users\todorovicd\Documents\Visual Studio 2015\Projects\Learning Center App\Learning Center App\bin\Debug\Devart.Data.dll
+C:\Users\todorovicd\Documents\Visual Studio 2015\Projects\Learning Center App\Learning Center App\bin\Debug\Devart.Data.MySql.dll
+C:\Users\todorovicd\Documents\Visual Studio 2015\Projects\Learning Center App\Learning Center App\bin\Debug\Devart.Data.xml
+C:\Users\todorovicd\Documents\Visual Studio 2015\Projects\Learning Center App\Learning Center App\bin\Debug\Devart.Data.MySql.xml
+C:\Users\todorovicd\Documents\Visual Studio 2015\Projects\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.frmFaculty.resources
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Learning Center App.exe.config
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Learning Center App.exe
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Learning Center App.pdb
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Devart.Data.dll
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Devart.Data.MySql.dll
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Devart.Data.xml
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Devart.Data.MySql.xml
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning Center App.csprojResolveAssemblyReference.cache
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.frmHome.resources
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.frmFaculty.resources
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.FrmStudent.resources
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.Properties.Resources.resources
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning Center App.csproj.GenerateResource.Cache
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning Center App.exe
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning Center App.pdb
+C:\Users\todorovicd\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Learning Center App.exe.config
+C:\Users\todorovicd\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning Center App.exe
+C:\Users\todorovicd\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning Center App.pdb
+C:\Users\todorovicd\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Learning Center App.exe
+C:\Users\todorovicd\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Learning Center App.pdb
+C:\Users\todorovicd\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Devart.Data.dll
+C:\Users\todorovicd\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Devart.Data.MySql.dll
+C:\Users\todorovicd\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Devart.Data.xml
+C:\Users\todorovicd\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Devart.Data.MySql.xml
+C:\Users\todorovicd\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning Center App.csprojResolveAssemblyReference.cache
+C:\Users\todorovicd\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.frmHome.resources
+C:\Users\todorovicd\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.frmFaculty.resources
+C:\Users\todorovicd\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.FrmStudent.resources
+C:\Users\todorovicd\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.Properties.Resources.resources
+C:\Users\todorovicd\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning Center App.csproj.GenerateResource.Cache
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Learning Center App.exe.config
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Learning Center App.exe
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Learning Center App.pdb
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Devart.Data.dll
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Devart.Data.MySql.dll
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Devart.Data.xml
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\bin\Debug\Devart.Data.MySql.xml
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning Center App.csprojResolveAssemblyReference.cache
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.frmHome.resources
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.frmFaculty.resources
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.FrmStudent.resources
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.Properties.Resources.resources
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning Center App.csproj.GenerateResource.Cache
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning Center App.exe
+C:\Users\noname\Downloads\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning Center App.pdb
+C:\Users\noname\Documents\Visual Studio 2017\Projects\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.frmHome.resources
+C:\Users\noname\Documents\Visual Studio 2017\Projects\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.frmFaculty.resources
+C:\Users\noname\Documents\Visual Studio 2017\Projects\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.FrmStudent.resources
+C:\Users\noname\Documents\Visual Studio 2017\Projects\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning_Center_App.Properties.Resources.resources
+C:\Users\noname\Documents\Visual Studio 2017\Projects\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning Center App.csproj.GenerateResource.Cache
+C:\Users\noname\Documents\Visual Studio 2017\Projects\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning Center App.exe
+C:\Users\noname\Documents\Visual Studio 2017\Projects\Learning Center App-20171108T021714Z-001-20171108T141359Z-001\Learning Center App-20171108T021714Z-001\Learning Center App\Learning Center App\obj\Debug\Learning Center App.pdb
+C:\Users\todorovicd\Desktop\Learning Center App\Learning Center App\bin\Debug\Learning Center App.exe.config
+C:\Users\todorovicd\Desktop\Learning Center App\Learning Center App\obj\Debug\Learning Center App.exe
+C:\Users\todorovicd\Desktop\Learning Center App\Learning Center App\obj\Debug\Learning Center App.pdb
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\bin\Debug\Learning Center App.exe.config
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\bin\Debug\Learning Center App.exe
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\bin\Debug\Learning Center App.pdb
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\obj\Debug\Learning Center App.csprojResolveAssemblyReference.cache
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\obj\Debug\Learning_Center_App.frmHome.resources
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\obj\Debug\Learning_Center_App.frmFaculty.resources
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\obj\Debug\Learning_Center_App.FrmStudent.resources
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\obj\Debug\Learning_Center_App.Properties.Resources.resources
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\obj\Debug\Learning Center App.csproj.GenerateResource.Cache
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\obj\Debug\Learning Center App.exe
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\obj\Debug\Learning Center App.pdb
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\bin\Debug\MySql.Data.dll
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\bin\Debug\MySql.Web.dll
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\bin\Debug\MySql.Data.xml
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\noname\Downloads\LC APP damjan\Learning Center App\bin\Debug\MySql.Web.xml
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\bin\Debug\Learning Center App.exe.config
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\obj\Debug\Learning Center App.exe
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\obj\Debug\Learning Center App.pdb
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\bin\Debug\Learning Center App.exe
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\bin\Debug\Learning Center App.pdb
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\bin\Debug\MySql.Data.dll
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\bin\Debug\MySql.Web.dll
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\bin\Debug\MySql.Data.xml
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\bin\Debug\MySql.Web.xml
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\obj\Debug\Learning Center App.csprojResolveAssemblyReference.cache
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\obj\Debug\Learning_Center_App.frmHome.resources
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\obj\Debug\Learning_Center_App.frmFaculty.resources
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\obj\Debug\Learning_Center_App.FrmStudent.resources
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\obj\Debug\Learning_Center_App.Properties.Resources.resources
+C:\Users\todorovicd\Downloads\1LC APP damjan\Learning Center App\obj\Debug\Learning Center App.csproj.GenerateResource.Cache
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\bin\Debug\Learning Center App.exe.config
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\bin\Debug\Learning Center App.exe
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\bin\Debug\Learning Center App.pdb
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\bin\Debug\MySql.Data.dll
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\bin\Debug\MySql.Web.dll
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\bin\Debug\MySql.Data.xml
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\bin\Debug\MySql.Web.xml
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\obj\Debug\Learning Center App.csprojResolveAssemblyReference.cache
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\obj\Debug\Learning_Center_App.frmHome.resources
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\obj\Debug\Learning_Center_App.frmFaculty.resources
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\obj\Debug\Learning_Center_App.FrmStudent.resources
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\obj\Debug\Learning_Center_App.Properties.Resources.resources
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\obj\Debug\Learning Center App.csproj.GenerateResource.Cache
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\obj\Debug\Learning Center App.exe
+C:\Users\noname\Downloads\LC APP damjan111\Learning Center App\obj\Debug\Learning Center App.pdb
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\bin\Debug\Learning Center App.exe.config
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\obj\Debug\Learning Center App.exe
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\obj\Debug\Learning Center App.pdb
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\bin\Debug\Learning Center App.exe
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\bin\Debug\Learning Center App.pdb
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\bin\Debug\MySql.Data.dll
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\bin\Debug\MySql.Web.dll
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\bin\Debug\MySql.Data.xml
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\bin\Debug\MySql.Web.xml
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\obj\Debug\Learning Center App.csprojResolveAssemblyReference.cache
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\obj\Debug\Learning_Center_App.frmHome.resources
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\obj\Debug\Learning_Center_App.frmFaculty.resources
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\obj\Debug\Learning_Center_App.FrmStudent.resources
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\obj\Debug\Learning_Center_App.Properties.Resources.resources
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\obj\Debug\Learning Center App.csproj.GenerateResource.Cache
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\obj\Debug\Learning_Center_App.frmManagement.resources
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\obj\Debug\Learning_Center_App.frmStudViewRet.resources
+C:\Users\todorovicd\Downloads\LC APP_\Learning Center App\obj\Debug\Learning_Center_App.frmFacViewRet.resources
+C:\Users\noname\Downloads\LC APP_\Learning Center App\bin\Debug\Learning Center App.exe.config
+C:\Users\noname\Downloads\LC APP_\Learning Center App\bin\Debug\Learning Center App.exe
+C:\Users\noname\Downloads\LC APP_\Learning Center App\bin\Debug\Learning Center App.pdb
+C:\Users\noname\Downloads\LC APP_\Learning Center App\bin\Debug\MySql.Data.dll
+C:\Users\noname\Downloads\LC APP_\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\noname\Downloads\LC APP_\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\noname\Downloads\LC APP_\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\noname\Downloads\LC APP_\Learning Center App\bin\Debug\MySql.Web.dll
+C:\Users\noname\Downloads\LC APP_\Learning Center App\bin\Debug\MySql.Data.xml
+C:\Users\noname\Downloads\LC APP_\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\noname\Downloads\LC APP_\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\noname\Downloads\LC APP_\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\noname\Downloads\LC APP_\Learning Center App\bin\Debug\MySql.Web.xml
+C:\Users\noname\Downloads\LC APP_\Learning Center App\obj\Debug\Learning Center App.csprojResolveAssemblyReference.cache
+C:\Users\noname\Downloads\LC APP_\Learning Center App\obj\Debug\Learning_Center_App.frmFacViewRet.resources
+C:\Users\noname\Downloads\LC APP_\Learning Center App\obj\Debug\Learning_Center_App.frmHome.resources
+C:\Users\noname\Downloads\LC APP_\Learning Center App\obj\Debug\Learning_Center_App.frmFaculty.resources
+C:\Users\noname\Downloads\LC APP_\Learning Center App\obj\Debug\Learning_Center_App.frmManagement.resources
+C:\Users\noname\Downloads\LC APP_\Learning Center App\obj\Debug\Learning_Center_App.FrmStudent.resources
+C:\Users\noname\Downloads\LC APP_\Learning Center App\obj\Debug\Learning_Center_App.Properties.Resources.resources
+C:\Users\noname\Downloads\LC APP_\Learning Center App\obj\Debug\Learning_Center_App.frmStudViewRet.resources
+C:\Users\noname\Downloads\LC APP_\Learning Center App\obj\Debug\Learning Center App.csproj.GenerateResource.Cache
+C:\Users\noname\Downloads\LC APP_\Learning Center App\obj\Debug\Learning Center App.exe
+C:\Users\noname\Downloads\LC APP_\Learning Center App\obj\Debug\Learning Center App.pdb
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\bin\Debug\Learning Center App.exe.config
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\obj\Debug\Learning Center App.exe
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\obj\Debug\Learning Center App.pdb
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\bin\Debug\Learning Center App.exe
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\bin\Debug\Learning Center App.pdb
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\bin\Debug\MySql.Data.dll
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\bin\Debug\MySql.Web.dll
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\bin\Debug\MySql.Data.xml
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\bin\Debug\MySql.Web.xml
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\obj\Debug\Learning Center App.csprojResolveAssemblyReference.cache
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\obj\Debug\Learning_Center_App.frmFacViewRet.resources
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\obj\Debug\Learning_Center_App.frmHome.resources
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\obj\Debug\Learning_Center_App.frmFaculty.resources
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\obj\Debug\Learning_Center_App.frmManagement.resources
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\obj\Debug\Learning_Center_App.FrmStudent.resources
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\obj\Debug\Learning_Center_App.Properties.Resources.resources
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\obj\Debug\Learning_Center_App.frmStudViewRet.resources
+C:\Users\todorovicd\Downloads\LC APP_NEW\Learning Center App\obj\Debug\Learning Center App.csproj.GenerateResource.Cache
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\Learning Center App.exe.config
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning Center App.exe
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning Center App.pdb
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\Learning Center App.exe
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\Learning Center App.pdb
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySql.Data.dll
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySql.Web.dll
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySql.Data.xml
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySql.Web.xml
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning Center App.csprojResolveAssemblyReference.cache
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning_Center_App.frmFacViewRet.resources
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning_Center_App.frmHome.resources
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning_Center_App.frmFaculty.resources
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning_Center_App.frmManagement.resources
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning_Center_App.FrmStudent.resources
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning_Center_App.Properties.Resources.resources
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning_Center_App.frmStudViewRet.resources
+C:\Users\todorovicd\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning Center App.csproj.GenerateResource.Cache
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\Learning Center App.exe.config
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\Learning Center App.exe
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\Learning Center App.pdb
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySql.Data.dll
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySql.Web.dll
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySql.Data.xml
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\bin\Debug\MySql.Web.xml
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning Center App.csprojResolveAssemblyReference.cache
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning_Center_App.frmFacViewRet.resources
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning_Center_App.frmHome.resources
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning_Center_App.frmFaculty.resources
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning_Center_App.frmManagement.resources
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning_Center_App.FrmStudent.resources
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning_Center_App.Properties.Resources.resources
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning_Center_App.frmStudViewRet.resources
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning Center App.csproj.GenerateResource.Cache
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning Center App.exe
+C:\Users\noname\Downloads\LC APP_NEW11\Learning Center App\obj\Debug\Learning Center App.pdb
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\bin\Debug\Learning Center App.exe.config
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\bin\Debug\Learning Center App.exe
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\bin\Debug\Learning Center App.pdb
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.dll
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\bin\Debug\MySql.Web.dll
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.xml
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\bin\Debug\MySql.Web.xml
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.csprojResolveAssemblyReference.cache
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmFacViewRet.resources
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmHome.resources
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmFaculty.resources
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmManagement.resources
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.FrmStudent.resources
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.Properties.Resources.resources
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmStudViewRet.resources
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.csproj.GenerateResource.Cache
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.exe
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.pdb
+C:\Users\noname\Desktop\copyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.AdminFrm.resources
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\bin\Debug\Learning Center App.exe.config
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.exe
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.pdb
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\bin\Debug\Learning Center App.exe
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\bin\Debug\Learning Center App.pdb
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.dll
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\bin\Debug\MySql.Web.dll
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.xml
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\bin\Debug\MySql.Web.xml
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.csprojResolveAssemblyReference.cache
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmFacViewRet.resources
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmHome.resources
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmFaculty.resources
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmManagement.resources
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.FrmStudent.resources
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.AdminFrm.resources
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.Properties.Resources.resources
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmStudViewRet.resources
+C:\Users\todorovicd\Downloads\copyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.csproj.GenerateResource.Cache
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\Learning Center App.exe.config
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\Learning Center App.exe
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\Learning Center App.pdb
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.dll
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySql.Web.dll
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.xml
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySql.Web.xml
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.csprojResolveAssemblyReference.cache
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmFacViewRet.resources
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmHome.resources
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmFaculty.resources
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmManagement.resources
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.FrmStudent.resources
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.Properties.Resources.resources
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmStudViewRet.resources
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.csproj.GenerateResource.Cache
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.exe
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.pdb
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\bin\Debug\Learning Center App.exe.config
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\bin\Debug\Learning Center App.exe
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\bin\Debug\Learning Center App.pdb
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.dll
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySql.Web.dll
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.xml
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySql.Web.xml
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.csprojResolveAssemblyReference.cache
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmFacViewRet.resources
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmHome.resources
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmFaculty.resources
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmManagement.resources
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.FrmStudent.resources
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.Properties.Resources.resources
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmStudViewRet.resources
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.csproj.GenerateResource.Cache
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.exe
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.pdb
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\Learning Center App.exe.config
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.exe
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.pdb
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\Learning Center App.exe
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\Learning Center App.pdb
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.dll
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySql.Web.dll
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.xml
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\MySql.Web.xml
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.csprojResolveAssemblyReference.cache
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmFacViewRet.resources
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmHome.resources
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmFaculty.resources
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmManagement.resources
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.FrmStudent.resources
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.Properties.Resources.resources
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmStudViewRet.resources
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning Center App.csproj.GenerateResource.Cache
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmPassword.resources
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmAdmin.resources
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmPassword.resources
+C:\Users\noname\Downloads\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmAdmin.resources
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmPassword.resources
+C:\Users\noname\Desktop\LASTcopyyyyyyyy\Learning Center App\obj\Debug\Learning_Center_App.frmAdmin.resources
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\EntityFramework.dll
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\EntityFramework.xml
+C:\Users\todorovicd\Downloads\LASTcopyyyyyyyy\Learning Center App\bin\Debug\EntityFramework.SqlServer.xml

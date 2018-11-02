@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="databaseDamjanSQLModelStoreContainer" CdmEntityContainer="databaseDamjanSQLEntities">
+    <EntitySetMapping Name="retakes">
+      <EntityTypeMapping TypeName="databaseDamjanSQLModel.retake">
+        <MappingFragment StoreEntitySet="retake">
+          <ScalarProperty Name="Retake_ID" ColumnName="Retake_ID" />
+          <ScalarProperty Name="Class_ID" ColumnName="Class_ID" />
+          <ScalarProperty Name="Class_Description" ColumnName="Class_Description" />
+          <ScalarProperty Name="Student_Name" ColumnName="Student_Name" />
+          <ScalarProperty Name="Student_ID" ColumnName="Student_ID" />
+          <ScalarProperty Name="Faculty_Name" ColumnName="Faculty_Name" />
+          <ScalarProperty Name="Faculty_ID" ColumnName="Faculty_ID" />
+          <ScalarProperty Name="Retake_StartDate" ColumnName="Retake_StartDate" />
+          <ScalarProperty Name="Retake_EndDate" ColumnName="Retake_EndDate" />
+          <ScalarProperty Name="Student_Scheduled_Date" ColumnName="Student_Scheduled_Date" />
+          <ScalarProperty Name="Student_Scheduled_Time" ColumnName="Student_Scheduled_Time" />
+          <ScalarProperty Name="Retake_Status" ColumnName="Retake_Status" />
+          <ScalarProperty Name="Retake_Reason" ColumnName="Retake_Reason" />
+          <ScalarProperty Name="Retake_Created" ColumnName="Retake_Created" />
+          <ScalarProperty Name="Retake_Scheduled" ColumnName="Retake_Scheduled" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

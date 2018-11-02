@@ -1,0 +1,227 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
+
+namespace Learning_Center_App
+{
+    public partial class FrmStudent : Form
+    {
+        MySqlConnection connectionStudentUser = new MySqlConnection("user id=StudentUser;password=12345;host=127.0.0.1;database=damjan;persist security info=True;convert zero datetime=True");
+
+        public static string classIDGeneral_2 = "";
+
+        public static string stuIDViewRet = "";
+
+        public static string stuNameViewRet = "";
+
+
+        public FrmStudent()
+        {
+            InitializeComponent();
+            FillComboClassStud();
+            datePickerStrtValues();
+
+        }
+
+        private void FrmStudent_Load_1(object sender, EventArgs e)
+        {
+            lblStudID.Text = frmHome.setValue;
+            StuNameLabel();
+
+            FillComboClassStud();
+
+            stuIDViewRet = lblStudID.Text;
+            stuNameViewRet = lblStudName.Text;
+
+
+        }
+        void StuNameLabel()
+        {
+            string Query = "SELECT User_Name FROM damjan.user WHERE User_ID = '"+ lblStudID.Text + "'";
+            MySqlCommand Command = new MySqlCommand(Query, connectionStudentUser);
+            MySqlDataReader dataReader;
+
+            try
+            {
+                
+                if(connectionStudentUser.State == ConnectionState.Closed)
+                {
+                    connectionStudentUser.Open();
+                }
+
+                dataReader = Command.ExecuteReader();
+
+
+                while (dataReader.Read())
+                {
+                    string stuNamDisply = dataReader.GetString("User_Name");
+                    lblStudName.Text = stuNamDisply.ToString();
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+
+            connectionStudentUser.Close();
+
+
+        }
+        void datePickerStrtValues()
+        {
+
+            string Query = "SELECT Retake_StartDate, Retake_EndDate FROM damjan.retake WHERE Student_ID = '" + lblStudID.Text + "' AND Class_ID = '" + classIDGeneral_2.ToString() + "' AND Retake_StartDate BETWEEN DATE_ADD(CURDATE(), INTERVAL -7 DAY) AND DATE_ADD(CURDATE(), INTERVAL +7 DAY);";
+            MySqlCommand Command = new MySqlCommand(Query, connectionStudentUser);
+            MySqlDataReader dataReader;
+
+            try
+            {
+                connectionStudentUser.Open();
+                dataReader = Command.ExecuteReader();
+
+                while (dataReader.Read())
+                {
+                    string minDatePick = dataReader.GetString("Retake_StartDate");
+                    DateTime Start_Date = Convert.ToDateTime(minDatePick);
+                    dateTimePickerStartStud.MinDate = (Start_Date);
+
+
+                    string maxDatePick = dataReader.GetString("Retake_EndDate");
+
+                    DateTime End_Date = Convert.ToDateTime(maxDatePick);
+
+                    dateTimePickerStartStud.MaxDate = (End_Date);
+
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+
+            connectionStudentUser.Close();
+
+        }
+
+        void FillComboClassStud()
+        {
+            string Query = "SELECT Class_ID, Class_Description FROM damjan.retake WHERE Student_ID ='" + lblStudID.Text + "' AND Student_Scheduled_Date LIKE '00%' AND Retake_StartDate BETWEEN DATE_ADD(CURDATE(), INTERVAL -7 DAY) AND DATE_ADD(CURDATE(), INTERVAL +7 DAY);";
+            MySqlCommand Command = new MySqlCommand(Query, connectionStudentUser);
+            MySqlDataReader dataReader;
+
+            try
+            {
+                connectionStudentUser.Open();
+                dataReader = Command.ExecuteReader();
+
+                while (dataReader.Read())
+                {
+                    string classID = dataReader.GetString("Class_ID");
+                    string classDescription = dataReader.GetString("Class_Description");
+
+                    cboChooseClassStud.Items.Add(string.Format("{0} {1}", classID, classDescription));
+
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+
+            connectionStudentUser.Close();
+
+        }
+      
+        private void btnConfirmStud_Click_1(object sender, EventArgs e)
+        {
+            if (cboChooseClassStud.SelectedItem == null)
+            {
+                MessageBox.Show("Please select an appropriate Class.");
+            }
+            else if (cboTimeStudent.SelectedItem == null)
+            {
+                MessageBox.Show("Please select an appropriate time.");
+            }
+            else
+            {
+                string studentTimePicked = cboTimeStudent.SelectedItem.ToString();
+                string timePicked = studentTimePicked.Substring(0, 8);
+
+                string clsPick = cboChooseClassStud.SelectedItem.ToString();
+                string classPickedStud = clsPick.Substring(0, 5);
+
+
+                string messBox = "You're about to schedule a retake for: " + classPickedStud + ", on: " + dateTimePickerStartStud.Value.Date.ToString("MM-dd-yyyy") + ", at: " + cboTimeStudent.SelectedItem.ToString() + "";
+
+                DialogResult res = MessageBox.Show("'" + messBox + "'", "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+                if (res == DialogResult.OK)
+                {
+                    string insertQueryStudent = "UPDATE damjan.retake SET Student_Scheduled_Date = '" + dateTimePickerStartStud.Value.Date.ToString("yyyy-MM-dd") + "',Student_Scheduled_Time = '" + timePicked + "' WHERE Student_Id = '" + lblStudID.Text + "' AND Class_ID = '" + classPickedStud + "' AND Retake_StartDate BETWEEN DATE_ADD(CURDATE(), INTERVAL - 7 DAY) AND DATE_ADD(CURDATE(), INTERVAL + 7 DAY)";
+
+                    MySqlCommand command = new MySqlCommand(insertQueryStudent, connectionStudentUser);
+
+                    connectionStudentUser.Open();
+
+                    try
+                    {
+                        if (command.ExecuteNonQuery() == 1)
+                        {
+
+                        }
+                        else
+                        {
+                            MessageBox.Show("Error!!");
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+
+                        MessageBox.Show(ex.Message);
+                    }
+                }
+            }
+            connectionStudentUser.Close();
+
+        }
+
+        private void cboChooseClassStud_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string ClassIdentifierString = this.cboChooseClassStud.GetItemText(this.cboChooseClassStud.SelectedItem);
+            string classIDent = ClassIdentifierString.Substring(0, 5);
+
+            classIDGeneral_2 = classIDent.ToString();
+
+            datePickerStrtValues();
+
+        }
+
+        private void btnRetakes_Click(object sender, EventArgs e)
+        {
+            new frmStudViewRet().Show();
+            this.Close();
+        }
+
+        private void btnStuExit_Click(object sender, EventArgs e)
+        {
+            DialogResult res = MessageBox.Show("You are about to Exit this window.", "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            if (res == DialogResult.OK)
+            {
+                new frmHome().Show();
+                this.Close();
+            }
+        }
+    }
+}

@@ -1,0 +1,205 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
+
+namespace Learning_Center_App
+{
+    public partial class frmFaculty : Form
+    {
+        MySqlConnection myConnection1 = new MySqlConnection("user id=root;password=12345;host=127.0.0.1;database=damjan;persist security info=True");
+
+        public static string classIDGeneral = "";
+
+        public static string classIDChecked = "";
+
+        public frmFaculty()
+        {
+            InitializeComponent();
+            FillCombo();
+
+        }
+        private void frmFaculty_Load_1(object sender, EventArgs e)
+        {
+            lblFacID.Text = frmHome.setValue;
+
+            FillCombo();
+
+            dateTimePickerStart.MinDate = DateTime.Now;
+            dateTimePickerStart.MaxDate = DateTime.Now.AddDays(18);
+
+            dateTimePickerEnd.MinDate = DateTime.Now;
+            dateTimePickerEnd.MaxDate = DateTime.Now.AddDays(18);
+        }
+
+        void FillCombo()
+        {
+            string Query = "SELECT Class_ID, Class_Description FROM damjan.class WHERE Faculty_ID ='" + lblFacID.Text + "';";
+            MySqlCommand Command = new MySqlCommand(Query, myConnection1);
+            MySqlDataReader dataReader;
+
+            try
+            {
+                myConnection1.Open();
+                dataReader = Command.ExecuteReader();
+
+
+                while (dataReader.Read())
+                {
+                    string classID = dataReader.GetString("Class_ID");
+                    string classDescrip = dataReader.GetString("Class_Description");
+
+                    cboChooseClass.Items.Add(string.Format("{0}  {1}", classID, classDescrip));
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+
+            myConnection1.Close();
+        }
+        void FillCheckList()
+        {
+            string insertQuery = "SELECT Student_Name, Student_ID FROM damjan.roster WHERE Class_ID ='" + classIDGeneral.ToString() + "'AND Faculty_ID ='" + lblFacID.Text + "';";
+            MySqlCommand CommandCheck = new MySqlCommand(insertQuery, myConnection1);
+            MySqlDataReader dataReaderCheck;
+            myConnection1.Open();
+
+            try
+            {
+                dataReaderCheck = CommandCheck.ExecuteReader();
+
+                while (dataReaderCheck.Read())
+                {
+                    string Student_Name = dataReaderCheck.GetString("Student_Name");
+                    string Stud_ID = dataReaderCheck.GetString("Student_ID");
+                    chckLstBox.Items.Add(string.Format("{0}  -  {1}", Student_Name, Stud_ID));
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+            myConnection1.Close();
+        }
+
+        private void btnFacExit_Click_1(object sender, EventArgs e)
+        {
+            new frmHome().Show();
+            this.Close();
+        }
+
+        public void cboChooseClass_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            chckLstBox.Items.Clear();
+            FillCheckList();
+
+            if (cboChooseClass.SelectedIndex > -1)
+            {
+                chckLstBox.Items.Clear();
+                FillCheckList();
+
+                string myString = this.cboChooseClass.GetItemText(this.cboChooseClass.SelectedItem);
+
+                string sub = myString.Substring(0, 5);
+
+            }
+
+            string ClassIdentifierString = this.cboChooseClass.GetItemText(this.cboChooseClass.SelectedItem);
+            string classIDent = ClassIdentifierString.Substring(0, 5);
+
+            classIDGeneral = classIDent.ToString();
+        }
+
+        private void btnConfirm_Click_1(object sender, EventArgs e)
+        {        
+                myConnection1.Open();
+
+                foreach (var item in chckLstBox.CheckedItems)
+                {
+                    string studentChecked = item.ToString();
+                    string classIDChecked = studentChecked.Substring(studentChecked.Length - 9);
+                    string studentNameChecked = studentChecked.Substring(0, studentChecked.Length - 9);
+
+
+                string chosClass = cboChooseClass.SelectedItem.ToString();
+
+                //string lasttt = chosClass.Length.ToString();
+
+                //int alllss = chosClass.Length;
+
+                string classChosen = chosClass.Substring(5, 8);
+
+                string insertQuery = "INSERT INTO damjan.retake(Class_ID, Class_Description, Student_Name, Student_ID, Faculty_ID,Retake_StartDate, Retake_EndDate) VALUES('" + classIDGeneral.ToString() + "', '"+ classChosen.ToString() + "','" + studentNameChecked.ToString() +"', '" + classIDChecked.ToString() + "','" + lblFacID.Text + "','" + dateTimePickerStart.Value.Date.ToString("yyyy-MM-dd") + "','" + dateTimePickerEnd.Value.Date.ToString("yyyy-MM-dd") + "')";
+
+                    MySqlCommand command = new MySqlCommand(insertQuery, myConnection1);
+
+                    try
+                    {
+                        if (command.ExecuteNonQuery() == 1)
+                        {
+                            MessageBox.Show("Following student will be granted retake permission: " + item.ToString() + "");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Error!!");
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+
+                        MessageBox.Show(ex.Message);
+                    }
+                }
+
+                myConnection1.Close();
+
+
+            // private void chckLstBox_SelectedIndexChanged(object sender, EventArgs e)
+            //{
+            //    foreach (object itemChecked in chckLstBox.CheckedItems)
+            //    {
+            //        string studNameChecked = itemChecked.ToString();
+
+            //        string classIDChecked = studNameChecked.Substring(studNameChecked.Length - 9);
+
+            //    }
+            // }
+
+            //private void button1_Click(object sender, EventArgs e)
+            //{
+            //    foreach (object itemChecked in chckLstBox.CheckedItems)
+            //    {
+            //        string studNameChecked = itemChecked.ToString();
+
+            //        string classIDChecked = studNameChecked.Substring(studNameChecked.Length - 9);
+
+            //        MessageBox.Show(classIDChecked.ToString());
+
+            //    }
+
+            //}
+
+
+
+            // MessageBox.Show(classIDChecked.ToString());
+
+
+
+
+        }
+    }
+}
+
