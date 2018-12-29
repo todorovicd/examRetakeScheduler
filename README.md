@@ -7,6 +7,7 @@ Students then need to schedule the retake.
 ![](examRetake3.gif)
 
 All Users are forced to change the default password on first login. One-time authentication code is sent to the email address on file. Therefore implementing 2FA.
+
 ![](examRetake4.gif)
 ![](examRetake5.gif)
 
